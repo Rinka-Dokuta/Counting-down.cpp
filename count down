@@ -1,0 +1,13 @@
+#include <iostream>
+
+void docking_countdown() {
+    for (int i = 20; i >= 0; i -= 3) {
+        std::cout << i << std::endl;
+    }
+    std::cout << "Docking complete!" << std::endl;
+}
+
+int main() {
+    docking_countdown();
+    return 0;
+}
